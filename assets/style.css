@@ -1,0 +1,223 @@
+body
+{
+    background: url("./img/bgNetwork.png") fixed;
+    
+}
+
+#menu
+{
+  display: block;
+}
+/*paragraphe présentation*/
+.pPresentation
+{
+    background-image: linear-gradient( #fa709961 0%, #fee14070 100%);
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+
+  .avatar
+  {
+    width:100%;
+    align-items: center;
+    max-width:25em;
+    max-height: 25em;
+  }
+
+/*concerne le menu avec les sphères*/
+.sphere
+{
+  height: 1em;
+  width: 1em;
+}
+.ball /*Concerne les sphères avec l'image "sphérisé" ==> désactivées*/
+{ 
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    background: url('./img/colorDust.jpg');
+    background-size: 100%;
+    background-position: 1.75em 2.5em;
+    box-shadow: 0em 0.188em 0.938em 0em white inset;
+    -moz-box-shadow: 0.75em 1.813em 5.063em 0em rgba(255, 255, 255, 0.75);
+}
+
+.line /*ligne de séparation*/
+{
+  background-color: #ffffff;
+  height: 1px;
+  margin-top: 1%;
+}
+
+#monParcours /*toute la section parcours: formations + expériences*/
+{
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+.blocParcours /*a l'intérieur de la section parcours: Row divisée en 2*/
+{
+  background-image: linear-gradient( #fa709961 0%, #fee14070 100%);
+  
+   
+}
+
+#competences/*toute la section compétences: badges+ bloc cartes*/
+{
+  padding-top: 5%;
+  margin-bottom: 5%;
+  
+}
+
+.blocBadge /*toute la section badge*/
+{
+  
+  padding: 5%;
+}
+
+
+.badge /*chaque badges de la section compétences de manière individuelle*/
+{
+  margin-right: 1em;
+  width: 10em;
+}
+
+#blocCardCompetence
+{
+  margin-top: 1%;
+  background-image: linear-gradient( #fa709961 0%, #fee14070 100%);
+  
+}
+
+@media screen and (max-width: 900px)
+{
+  .lineCompetences
+  {
+    padding-left:20%;
+  }
+
+  .lineParcours
+  {
+    padding-left:15%;
+  }
+}
+  
+}
+.lineCompetences
+{
+  
+}
+
+.barreProgDev/*Barre progression développeur web paragraphe présentation*/
+{
+  margin-top: 23px;
+}
+
+#experiences/*section expérience*/
+{
+  padding-top: 5%;
+  position: relative;
+  display: block;
+
+}
+
+.accordion
+{
+  background-color: black;
+}
+.dateExp
+{
+  font-size: 2em;
+  background-color: blue;
+}
+
+#barreInvisible /*Ligne row vide: pour permettre un espace entre le bloc projet et la barre de menu*/
+{
+  padding-bottom: 5%;
+}
+
+#projets
+{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+
+.blocProjets
+{
+  background-image: linear-gradient( #fa709961 0%, #fee14070 100%);
+  height: 80vh;
+  
+}
+#contact/*section contact*/
+{
+  padding-top: 5%;
+  position: relative;
+  display: block;
+  
+}
+
+.formContact
+{
+  background-image: linear-gradient( #fa709961 0%, #fee14070 100%);
+}
+
+.cardForm /*carte des formations changement de la couleur de fond en un dégradé*/
+{
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+  /*******************************$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*************************/
+  /* autour du conteneur */
+
+  #timeline
+  {
+    padding-top: 15%;
+  }
+  .timeline {
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  
+  
+  ul.timeline {
+    list-style-type: none;
+    width:100%;
+    left:0;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+   
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+  
+}
+
+  
+
